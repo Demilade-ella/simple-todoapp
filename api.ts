@@ -1,6 +1,6 @@
 import { ITask } from "./types/tasks";
 
-const baseUrl = 'http://127.0.0.1:3001';
+const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:3001';
 
 export const getAllTodos = async (): Promise<ITask[]> => {
   const res = await fetch(`${baseUrl}/tasks`, { cache: 'no-store' });

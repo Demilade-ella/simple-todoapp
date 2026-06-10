@@ -1,0 +1,94 @@
+.bodyRow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.bodyItem {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    text-transform: capitalize;
+}
+
+.bodyIcon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.edit {
+    color: blue;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.edit:hover {
+  transform: scale(1.05);
+}
+
+.edit:active {
+  transform: scale(0.97);
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.delete:hover {
+  transform: scale(1.05);
+}
+
+.delete:active {
+  transform: scale(0.97);
+}
+
+.deleteMessage {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-align: start;
+}
+
+.modalAction {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.deleteBtn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: black;
+    height: 40px;
+    padding: 0 10px;
+    margin-left: 3px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 300px;
+    transition: transform 0.15s ease;
+}
+
+.deleteBtn:hover {
+  transform: scale(1.05);
+}
+
+.deleteBtn:active {
+  transform: scale(0.97);
+}
